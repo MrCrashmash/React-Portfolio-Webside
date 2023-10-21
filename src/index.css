@@ -43,6 +43,10 @@ Darkest to britest
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
+
+    --color-header1: rgb(255, 255, 255);
+    --color-header2: rgb(0,77,205);
+    --color-header3: rgb(100,234,235);
 }
 
 html{

@@ -13,8 +13,8 @@ import {RiBoxingLine} from 'react-icons/ri'
 function About() {
   return (
     <section id='about'>
-      <h5>Wer bin ich?</h5>
-      <h2>About Me</h2>
+      <h5 >Wer bin ich?</h5>
+      <h2 className='about_header'>About Me</h2>
 
       <div className='container about__container'>
         <div className='about__me'>

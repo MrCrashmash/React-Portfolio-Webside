@@ -4,6 +4,10 @@
     grid-template-columns: 100%;
 }
 
+.contact_header{
+    color: var(--color-white);
+}
+
 .contact__options{
     display: flex;
     flex-direction: column;
@@ -31,11 +35,12 @@
 .contact__option a{
     margin-top: 0.7rem;
     display: inline-block;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
 
 .contact__option h5{
     color: var(--color-light);
+    font-size: 200%;
 }
 
 
@@ -43,7 +48,7 @@
 
 @media screen and (max-width: 1024px){
     .container.contact__container{
-        grid-template-columns: 1fr;
+        width: var(--container-width-sm);
         gap: 2rem;
     }    
 }
@@ -54,4 +59,12 @@
     .container.contact__container{
         width: var(--container-width-sm);
     }  
+
+    .contact__option h5{
+        font-size: 100%;
+    }
+
+    .contact__option a{
+        font-size: 0.8rem;
+    }
 }

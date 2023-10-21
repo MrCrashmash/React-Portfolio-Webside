@@ -21,6 +21,7 @@ header{
 /* =========== Header Socials ==========*/
 
 .header__socials{
+    font-size: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,6 +53,7 @@ header{
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
+
 /* =========== Scroll Down ==========*/
 
 .scroll__down{
@@ -60,7 +62,7 @@ header{
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 20px;
 }
 
 /* =================== Media Queries (Medium Devices) ================*/

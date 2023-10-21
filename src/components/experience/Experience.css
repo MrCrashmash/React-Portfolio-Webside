@@ -1,7 +1,11 @@
 .experience__container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 2rem;
+}
+
+.experience_header{
+    color: var(--color-white);
 }
 
 .experience__container > div {
@@ -28,16 +32,26 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
+    column-gap: 11rem;
+    padding: 0 1rem 0 1rem;
 }
 
 .experience__details{
-    display: flex;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: 3% 90%;
+    gap: 2rem;
 }
 .experience__details-icon{
-    margin-top: 6px;
+    margin-top: 12px;
     color: var(--color-primary);
 }
+
+.develoent{
+    font-size: 25px;
+}
+
+/* =========================== Progressbar ========================*/
+
 
 
 /* =================== Media Queries (Medium Devices) ================*/
@@ -69,4 +83,11 @@
         width: 100%;
         padding: 2rem 0rem;
     }
+
+    .experience__content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
 }
