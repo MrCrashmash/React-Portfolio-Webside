@@ -7,6 +7,8 @@ import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+
+import Particals from './components/Particals'
 {/*import Services from './components/services/Services'*/}
 
 
@@ -15,13 +17,14 @@ import Footer from './components/footer/Footer'
 function App() {
   return (
     <>
+      <Particals/>
       <Header />
       <Nav />
       <About />
       <Experience />
       {/*<Services />*/}
       <Portfolio />
-      <Testimonials />
+      {/*<Testimonials />*/}
       <Contact />
       <Footer />
     </>

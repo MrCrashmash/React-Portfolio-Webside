@@ -1,8 +1,7 @@
 .container.contact__container {
     width: 58%;
     display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
+    grid-template-columns: 100%;
 }
 
 .contact__options{
@@ -20,7 +19,7 @@
 }
 
 .contact__option:hover{
-    background: transparent;
+    background: var(--semitransparent-bg-variant);
     border-color: var(--color-primary-variant);
 }
 
@@ -37,26 +36,6 @@
 
 .contact__option h5{
     color: var(--color-light);
-}
-
-
-/* ============ FROM ==========*/
-
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-}
-
-input, textarea{
-    width: 100%;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    background: transparent;
-    border: 2px solid var(--color-primary-variant);
-    resize: none;
-    color: var(--color-white);
-    box-sizing: border-box;
 }
 
 

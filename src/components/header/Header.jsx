@@ -3,15 +3,15 @@ import './Header.css'
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 
-import ME from "../../assets/images/Me-SW.png"
+import ME from "../../assets/images/me.png"
 
 const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
+        <h5>Hey, ich bin</h5>
         <h1>Lennart Drescher</h1>
-        <h5 className='text-light'>Informatik Student an der Univerität Bremen</h5>
+        <h4 className='text-light'>Informatik Student an der Univerität Bremen</h4>
         <CTA />
         <HeaderSocials/>
         

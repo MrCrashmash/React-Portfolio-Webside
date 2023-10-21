@@ -1,0 +1,30 @@
+.details__wrapper{
+    color: black
+}
+
+.container.details__container{
+    width: 100%;
+    padding-bottom: 4rem;
+    box-sizing: border-box;
+}
+
+.details_images{
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.details_images img{
+    border-radius: 10px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: var(--color-primary);
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    
+}
