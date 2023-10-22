@@ -10,7 +10,7 @@ import {portfolioData} from './Portfolio_Data'
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>Meine letzten Projekte</h5>
+      <h5>Meine neusten Projekte</h5>
       <h2 className='portfolio_header'> Portfolio</h2>
 
       <div className='container portfolio__container'>
