@@ -1,6 +1,8 @@
 import React from 'react'
 import './Details.css'
-import MazeGame from '../../../assets/Portfolio/MazeGame/MazeGame.png'
+import MazeGameHome from '../../../assets/Portfolio/MazeGame/MainMenu2.png'
+import MazeGame1 from '../../../assets/Portfolio/MazeGame/Move1.png'
+
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper/modules';
@@ -18,8 +20,11 @@ const Details_MazeGame = () => {
             slidesPerView={1}
             pagination={{ clickable: true }}
             >
-                <SwiperSlide className='details_images' style={{backgroundImage: `url(${MazeGame})`, backgroundSize: 'cover'}}>
-                  <img src={MazeGame} style={{visibility:'hidden'}}/>
+                <SwiperSlide className='details_images' style={{backgroundImage: `url(${MazeGameHome})`, backgroundSize: 'cover'}}>
+                  <img src={MazeGameHome} style={{visibility:'hidden'}}/>
+                </SwiperSlide>
+                <SwiperSlide className='details_images' style={{backgroundImage: `url(${MazeGame1})`, backgroundSize: 'cover'}}>
+                  <img src={MazeGame1} style={{visibility:'hidden'}}/>
                 </SwiperSlide>
         </Swiper>
 
