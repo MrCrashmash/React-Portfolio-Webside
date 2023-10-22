@@ -10,12 +10,12 @@ import {portfolioData} from './Portfolio_Data'
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
+      <h5>Meine letzten Projekte</h5>
       <h2 className='portfolio_header'> Portfolio</h2>
 
       <div className='container portfolio__container'>
         {
-          portfolioData.map(({id, image, title, github, demo, caller}) => {
+          portfolioData.map(({id, image, title, github, target, caller}) => {
             return(
               <article key={id} className='portfolio__item'>
                 <div className='portfolio__item-image'>
@@ -27,6 +27,7 @@ const Portfolio = () => {
                       details_title={title} 
                       details_github={github}
                       details_caller={caller}
+                      details_className={target}
                     /> 
 
                 </div>

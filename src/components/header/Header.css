@@ -4,8 +4,8 @@ header{
     overflow: hidden;
 }
 .header__container{
-    text-align: center;
     height: 100vh;
+    text-align: center;
     position: relative;
 }
 
@@ -43,7 +43,7 @@ header{
 .me{
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 30rem;
+    height: fit-content;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -68,19 +68,11 @@ header{
 /* =================== Media Queries (Medium Devices) ================*/
 
 @media screen and (max-width: 1024px){
-    header{
-        height: 100vh;
-    }
-    
 }
 
 /* =================== Media Queries (Small Devices) ================*/
 
 @media screen and (max-width: 600px){
-    header{
-        height: 100vh
-    }
-    
     .header__socials, 
     .scroll__down{
        display: none;

@@ -12,7 +12,7 @@ import Details_Donut from './Details_Donut'
 import Details_HTML_Web from './Details_HTML_Web' 
 import Details_React_Web from './Details_React_Web' 
 import Details_MazeGame from './Details_MazeGame' 
-import Details_Matraze from './Details_Matraze' 
+import Details_Matraze from './Details_Matratze' 
 import Details_VRLL from './Details_VRLL' 
 
 export default function ScrollDialog(props) {
@@ -85,7 +85,7 @@ export default function ScrollDialog(props) {
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-          <a href={props.details_github} className='btn btn-primary' target='_blank'>GitHub</a>
+          <a href={props.details_github} className={props.details_className} target='_blank'>GitHub</a>
           <a onClick={handleClose} className='btn' target='_blank'>Schließen</a>
   
         </DialogActions>

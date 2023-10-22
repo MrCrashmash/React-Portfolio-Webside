@@ -1,6 +1,9 @@
 import React from 'react'
 import './Details.css'
 
+import Header from  '../../../assets/Portfolio/React_Webseite/Header.PNG'
+import HeaderGIF from  '../../../assets/Portfolio/React_Webseite/Header.gif'
+
 // import Swiper core and required modules
 import { Pagination } from 'swiper/modules';
 
@@ -17,23 +20,21 @@ const Details_React_Web = () => {
             slidesPerView={1}
             pagination={{ clickable: true }}
             >
-                <SwiperSlide className='details_images'>
-                    REACT
-                </SwiperSlide>
-                <SwiperSlide className='details_images'>
-                    REACT !!!!
+                <SwiperSlide className='details_images' style={{backgroundImage: `url(${HeaderGIF})`, backgroundSize: 'cover'}}>
+                  <img src={HeaderGIF} style={{visibility:'hidden'}}/>
                 </SwiperSlide>
         </Swiper>
 
 
         {/* Text */}
-        <h1>Das </h1>
+        <h1>Meine erste React Webseite</h1>
             <p>
-              
+              Das ist mein erster Versuch eine responsiv Webseite mit React zu bauen. Hier stelle ich mich vor und zeige mit welchen Projekten ich mich 
+              während meines Studiums beschäfftig hab.
             </p>
             <br/>
             <p>
-              Das 
+              Den Code zu Webseite kann im Github gefunden werden
             </p>
     </div>
   )

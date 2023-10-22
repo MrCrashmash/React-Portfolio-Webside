@@ -30,9 +30,9 @@ const Details_MazeGame = () => {
 
 
         {/* Text */}
-        <h1>Das verrückte Labyrint</h1>
+        <h1>Das verrückte Labyrinth</h1>
             <p>
-              Im Studien Modul "Software Projekt 2" sollten wir als Gruppe das Bettspiel "Das verrückte Labyrint" 
+              Im Studien Modul "Software Projekt 2" sollten wir als Gruppe das Bettspiel "Das verrückte Labyrinth" 
               in Java umsetzten. <br/>
               <br/>
               Mindestanforderungen waren: <br/>
@@ -43,6 +43,9 @@ const Details_MazeGame = () => {
             </p>
             <br/>
             <p>
+              Es müssen zwei Instanzen des spiels geöffnet werden, der Erste Spieler muss "Host" drücken und sich einen Port aussuchen, mit dem sich Spieler zwei verbinden soll. 
+              Der zweite Spieler drückt auf "join" und gibt den Port und die IP-adresse vom ersten Spieler ein.
+              
               Das Spiel sowie das gesamte Projekt ist unten im GitHub zu finden.
             </p>
     </div>

@@ -27,7 +27,7 @@ function About() {
             <article className='about__card'>
               <MdOutlineWork className='about__icon'/>
               <h5>DFKI Bremen</h5>
-              <small>2 Jahre als Wissischaftliche Hilfskraft</small>
+              <small>Beschäftigt seit 2 Jahren</small>
             </article>
             <article className='about__card'>
               <MdSportsMartialArts className='about__icon'/>
@@ -42,7 +42,7 @@ function About() {
           </div>
 
           <p>
-            Hier sind zwei Wahrheiten & eine Lüge über mich:
+            Zwei Wahrheiten & eine Lüge über mich:
           </p>
 
           <div className='TL__cards'>
