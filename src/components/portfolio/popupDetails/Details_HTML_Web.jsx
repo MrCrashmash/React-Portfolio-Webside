@@ -43,14 +43,14 @@ const Details_HTML_Web = () => {
         {/* Text */}
         <h1>HTML Webseite</h1>
         <p>
-          Im Studien Modul "Medien Informatik 1" sollten wir eine Werbekampanie zu einem selbst ausgedachten Produkt erstellen und das alles unter dem Oberthema Mars. 
-          Dazu gehörte ein Radio-Werbespot, ein Werbeplakat und eine Webseite. 
-          Die Webseite enthält das Plakat und den Werbespot. Die Webseite selber hat einen wechselnden Hintergrund, ist Responsiv
-          und besteht nur aus HTML und CSS.
+          Im Studienmodul "Medieninformatik 1" wurde uns die Aufgabe gestellt eine Werbekampagne zu einem selbst ausgedachten Produkt zu erstellen unter dem Oberthema "Mars". 
+          Dazu gehörte ein Radiospot, ein Werbeplakat und eine Webseite. 
+          Plakat und Radiospot sollten in der Webseite eingebunden sein. Die Webseite selber hat einen wechselnden Hintergrund, ist responsiv
+          und besteht nur aus HTML und CSS Code.
         </p>
         <br/>
         <p>
-          Die Webseite und das Plakat habe ich alleine erstellt, ebenso war es meine erste richtige Auseinandersetzung mit HTML, CSS und GIMP(für das Plakat)
+          Die Webseite und das Plakat habe ich in Einzelarbeit erstellt, ebenso war es meine erste richtige Auseinandersetzung mit HTML, CSS und GIMP(für das Plakat).
         </p>
         <br/>
         <p>

@@ -31,18 +31,12 @@ const Details_Matraze = () => {
         {/* Text */}
         <h1>3D Matraze</h1>
             <p>
-              Im Studien Modul "Medien Informatik 2" wurde erwartet, dass wir ein zufällig ausgewähltes 3D Modell erstellen sollten 
-              und dieses dann noch animieren. Ich sollte eine Luftmatraze erstellen. Als Animation hab ich mich dazu entschieden sie auf dem Wasser
-              schwimmen zu lassen und im Finalen Video sind auch geräusche eingebaut. 
+              Im Studienmodul "Medieninformatik 2" habe ich dieses 3D Modell mit passender Animation zum Thema "ein Tag am Stand" erstellt. In der final gerenderten Animation sind zudem Möwen- und Wellengeräusche im Hintergrund zuhören
             </p>
             <br/>
-            <p>
-              Eben so wurder verlangt, das wir das in Blender erstellte Model in ein bewegtes Video einbauen, hier sollte das Modell ebenfall leicht von 
-              einem beliebigen Objekt im Video verdeckt werden.
-            </p>
             <br/>
             <p>
-              Die Matraze bzw. das gesamte Projekt ist unten im GitHub zu finden.
+              Das gesamte Projekt ist unten im GitHub zu finden.
             </p>
 
     </div>

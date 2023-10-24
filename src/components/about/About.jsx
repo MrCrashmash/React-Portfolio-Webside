@@ -32,7 +32,7 @@ function About() {
             <article className='about__card'>
               <MdSportsMartialArts className='about__icon'/>
               <h5>Hobbys</h5>
-              <small>Karate, Kajak fahren, Uni-Sport, Gaming</small>
+              <small>Karate, Kajak fahren, Uni-Sport, Kochen</small>
             </article>
             <article className='about__card'>
               <HiMapPin className='about__icon'/>

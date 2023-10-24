@@ -31,7 +31,8 @@ export const Details_Donut = () => {
         {/* Text */}
             <h1>3D DONUT</h1>
             <p>
-              Um mich für das Studien Modul vor zubereiten habe ich mich an Blender versucht, dabei ist dieser leckere 3D Donut entschanden
+              Um mich auf das Studienmodul "Medieninformatik 2" vorzubereiten, habe ich diesen leckeren Donut als mein erstes
+              3D Objekt in Blender modeliert.
             </p>
             <br/>
             <p>

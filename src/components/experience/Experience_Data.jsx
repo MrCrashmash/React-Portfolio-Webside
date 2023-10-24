@@ -9,7 +9,7 @@ export const experience_Data = [
     {
         id: 2,
         title: 'CSS',
-        value: '70'
+        value: '75'
     },
     {
         id: 3,
@@ -29,7 +29,7 @@ export const experience_Data = [
     {
         id: 6,
         title: 'Blender',
-        value: '30'
+        value: '50'
     },
     {
         id: 7,
@@ -54,18 +54,22 @@ export const experience_Data = [
     {
         id: 11,
         title: 'PHP',
-        value: '30'
+        value: '40'
     },
     {
         id: 12,
         title: 'MySQL',
-        value: '30'
+        value: '40'
     },
     {
         id: 13,
         title: 'Python',
-        value: '20'
+        value: '30'
     },
-
+    {
+        id: 14,
+        title: 'Unity',
+        value: '30'
+    },
 ];
 
