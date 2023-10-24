@@ -63,8 +63,8 @@ const Details_VRLL = () => {
             <p>
               Im Rahmen der Datenerfassung haben wir uns intensiv mit dem Aufnehmen, Visualisieren und Konvertieren von Bewegungsdaten aus unserem VR-Setup beschäftigt. Dabei haben wir verschiedene Systeme im Projekt eingesetzt und 
               die Ausgangssituation analysiert. Wir konnten erfolgreich eine Vielzahl von Events loggen und dokumentieren. Also das pozeduale Wissen, welches beschreibt was zu einem bestimmten Moment getan wurde.  
-              Dies ist essentieller Schritt für den Roboter, dieser muss den Kontext der Interaktionen verstehen, 
-              welche Gegenstände beteiligt sind und welches Ziel die Interaktion hat, um in der Zukunft in der Lage zu sein Kontextbasierte Aufgaben in Kooperation zu erledigen.
+              Dies ist ein essentieller Schritt für den Roboter, dieser muss den Kontext der Interaktionen verstehen, 
+              welche Gegenstände beteiligt sind und welches Ziel die Interaktion hat, um in der Zukunft in der Lage zu sein kontextbasierte Aufgaben in Kooperation zu erledigen.
             </p>
 
     </div>
