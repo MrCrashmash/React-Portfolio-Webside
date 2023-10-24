@@ -7,6 +7,8 @@ import Matratze from '../../../assets/Portfolio/Matratze/Matratze.png'
 // import Swiper core and required modules
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 const Details_Matraze = () => {
   return (

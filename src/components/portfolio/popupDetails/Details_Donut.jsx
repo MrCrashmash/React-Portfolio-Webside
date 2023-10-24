@@ -7,6 +7,8 @@ import Donut from '../../../assets/Portfolio/Donut/Donut.png'
 import { Pagination } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 export const Details_Donut = () => {
   return (
