@@ -30,12 +30,11 @@ const Details_React_Web = () => {
         {/* Text */}
         <h1>Meine erste React Webseite</h1>
             <p>
-              Das ist mein erster Versuch eine responsive Webseite mit React zu bauen. Hier stelle ich mich vor und zeige mit welchen Projekten ich mich 
-              während meines Studiums beschäftig hab.
+              Dies ist mein erster Versuch, eine responsive Webseite mit React zu erstellen. Hier stelle ich mich vor und zeige meine Projekte, mit denen ich mich während meines Studiums beschäftigt habe.
             </p>
             <br/>
             <p>
-              Ger gesamte Quellcode dieser React Anwendung kann im unten verlinkten GitHub abgerufen werden.
+              Der vollständige Quellcode dieser React-Anwendung kann im verlinkten GitHub abgerufen werden.
             </p>
     </div>
   )

@@ -33,12 +33,12 @@ const Details_Matraze = () => {
         {/* Text */}
         <h1>3D Matraze</h1>
             <p>
-              Im Studienmodul "Medieninformatik 2" habe ich dieses 3D Modell mit passender Animation zum Thema "ein Tag am Stand" erstellt. In der final gerenderten Animation sind zudem Möwen- und Wellengeräusche im Hintergrund zuhören
+            Im Rahmen des Studienmoduls "Medieninformatik 2" habe ich ein 3D-Modell mit passender Animation zum Thema "Ein Tag am Strand" erstellt. In der finalen gerenderten Animation sind zudem Möwengeräusche und Meeresrauschen im Hintergrund zu hören.  
             </p>
             <br/>
             <br/>
             <p>
-              Das gesamte Projekt ist unten im GitHub zu finden.
+              Das gesamte Projekt ist auf GitHub zu finden.
             </p>
 
     </div>

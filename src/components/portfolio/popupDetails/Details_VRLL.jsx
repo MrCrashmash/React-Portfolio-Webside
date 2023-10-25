@@ -46,25 +46,27 @@ const Details_VRLL = () => {
         {/* Text */}
         <h1>VR Lab Linking - Bachelorprojekt </h1>
             <p>            
-            Ziel dieses Bachelorprojekts war es, dass zwei Teilnehmer in einer 3D Küche mit VR-Brillen einen Tisch decken. 
-            Mit den daraus generierten Daten sollten Roboter lernen wie Menschen miteinander kooperieren, und diese Verhaltensweisen letztendlich imitieren.<br/>
+              Das Ziel dieses Bachelorprojekts war, dass zwei Teilnehmer in einer 3D-Küche mithilfe von VR-Brillen gemeinsam einen Tisch decken. 
+              Die gesammelten Daten sollen die Grundlage dafür sein, dass Roboter lernen, wie Menschen kooperieren, um dieses Verhalten imitieren zu können.<br/>
             <br/>
-            Um das zu ermöglichen hatten wir folgende Aufgabenbereiche:
+              Um dies zu ermöglichen, hatten wir folgende Aufgabenbereiche:
             </p>
 
             <br/>
 
             <h2>Lab Linking</h2>
             <p>
-            Der VR-LL Multiplayer ermöglicht es, dass 2 Personen zusammen von unterschiedlichen Standorten einen Tisch decken können. Dies wird als Lab-Linking bezeichnet. 
-            Dabei kommunizieren die beiden Personen nonverbal und verständigen sich somit nur durch Handgesten. Die eine Person übernimmt dabei die Rolle des Servers und die andere Person die Rolle des Clients.
+              Der VR-LL-Multiplayer ermöglicht es zwei Personen, von unterschiedlichen Standorten aus gemeinsam einen Tisch zu decken. Dieses Vorgehen wird als Lab-Linking bezeichnet, 
+              bei dem die beiden Personen nonverbal kommunizieren und sich lediglich durch Handgesten verständigen. Eine Person übernimmt dabei die Rolle des Servers und die andere Person die Rolle des Clients.
             </p>
             <br/>
             <h2>Datenerfassung</h2>
             <p>
-              Im Rahmen der Datenerfassung haben wir uns intensiv mit dem Aufnehmen, Visualisieren und Konvertieren von Bewegungsdaten aus unserem VR-Setup beschäftigt. Dabei haben wir verschiedene Systeme im Projekt eingesetzt und 
-              die Ausgangssituation analysiert. Wir konnten erfolgreich eine Vielzahl von Events loggen und dokumentieren. Also das pozeduale Wissen, welches beschreibt was zu einem bestimmten Moment getan wurde.  
-              Dies ist ein essentieller Schritt für den Roboter, dieser muss den Kontext der Interaktionen verstehen, 
+              Im Rahmen der Datenerfassung haben wir uns intensiv mit der Aufnahme, Visualisierung und Konvertierung von Bewegungsdaten aus unserem VR-Setup beschäftigt. 
+              Wir haben verschiedene Systeme im Projekt eingesetzt und die Ausgangssituation analysiert. Wir konnten erfolgreich eine Vielzahl von Events loggen und dokumentieren. 
+              Somit haben wir das prozeduale Wissen erlangt, welches beschreibt, was zu einem bestimmten Moment getan wurde. Dies ist ein essentieller Schritt für den Roboter, um in der Zukunft kontextbasierte Aufgaben in Kooperation zu erledigen. 
+
+              Dies ist ein essentieller Schritt für den Roboter. Er muss den Kontext der Interaktionen verstehen, 
               welche Gegenstände beteiligt sind und welches Ziel die Interaktion hat, um in der Zukunft in der Lage zu sein kontextbasierte Aufgaben in Kooperation zu erledigen.
             </p>
 

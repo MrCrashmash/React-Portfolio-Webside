@@ -33,23 +33,21 @@ const Details_MazeGame = () => {
         {/* Text */}
         <h1>Das verrückte Labyrinth</h1>
             <p>
-              Im Studienmodul "Software Projekt 2" sollten wir als Gruppe das Bettspiel "Das verrückte Labyrinth" 
-              in Java umsetzten. <br/>
+              Im Rahmen des Studienmoduls "Software Projekt 2" haben wir als Gruppe die Aufgabe erhalten, das Brettspiel "Das verrückte Labyrinth" in Java umzusetzen.<br/>
               <br/>
-              Mindestanforderungen waren: <br/>
-              - Umsetzung des Spiels gemäß der Orginal-Spielregeln. <br/>
-              - 2 Spieler:innen, spielbar in Rechnernetzen (Client/Server).<br/>
-              - Ein laufendes Spiel kann jederzeit unterbrochen und beliebig später wieder aufgenommen werden.<br/>
-              - ungültige Spielzüge werden abgelehnt.<br/>
+              Die Mindestanforderungen für das Projekt sind:<br/>
+              - die Einhaltung der Original-Spielregeln, <br/>
+              - die Möglichkeit zur spielerischen Interaktion zwischen zwei Teilnehmer:innen via Client/Server-Schnittstelle, <br/>
+              - ein jederzeit unterbrechbares und wieder aufnehmbares laufendes Spiel sowie die Ablehnung ungültiger Spielzüge.<br/>
             </p>
             <br/>
             <p>
-              Es müssen zwei Instanzen des Spiels geöffnet werden, der erste Spieler muss "Host Game" drücken und sich einen Port aussuchen, mit dem sich Spieler 2 verbinden soll. 
-              Der zweite Spieler drückt auf "Join Game" und gibt den Port und die IP-adresse vom ersten Spieler an.
+              Um das Spiel zu starten, müssen zwei Instanzen geöffnet werden. Der erste Spieler wählt einen Port aus und drückt auf "Host Game". 
+              Der zweite Spieler wählt "Join Game" und gibt den Port sowie die IP-Adresse des ersten Spielers an.
             </p>
             <br/>
             <p>
-              Das Spiel sowie das gesamte Projekt ist unten im GitHub zu finden.
+              Das Spiel sowie das gesamte Projekt ist auf GitHub zu finden.
             </p>
     </div>
   )
